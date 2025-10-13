@@ -1,0 +1,164 @@
+@relation 'XXEAM_TASK_V-weka.filters.unsupervised.attribute.Remove-R12,13,29,30-weka.filters.unsupervised.attribute.StringToNominal-Rlast-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last'
+
+@attribute TASK_ID numeric
+@attribute TASK_COMPLETED_FLAG=NO numeric
+@attribute TASK_STATUS {ACTIVE}
+@attribute TASK_STATUS_DATE string
+@attribute TASK_PRIORITY_STATUS string
+@attribute LOCATION_ID numeric
+@attribute LOCATION_CODE string
+@attribute LOCATION_ORDER_NUM numeric
+@attribute 'LOCATION_NAME=PRODUCT HANDLING AREA' numeric
+@attribute LOCATION_TYPE_CODE numeric
+@attribute LOCATION_TYPE_NAME numeric
+@attribute LOCATION_TYPE_STYLE numeric
+@attribute LOCATION_STATUS numeric
+@attribute LOCATION_ID_PATH=979:985:20000:20003 numeric
+@attribute LOCATION_ORDER_NUM_PATH=000000001:000014827:000016588:000020003 numeric
+@attribute 'LOCATION_NAME_PATH=Direct Reduction Plants:LCPs:FLCP:PRODUCT HANDLING AREA' numeric
+@attribute EQUIPMENT_ID numeric
+@attribute EQUIPMENT_ORDER_NUM numeric
+@attribute EQUIPMENT_CATEGORY_GROUP_CODE string
+@attribute EQUIPMENT_CATEGORY_GROUP_NAME string
+@attribute EQUIPMENT_CATEGORY_CODE string
+@attribute EQUIPMENT_CATEGORY_NAME string
+@attribute EQUIPMENT_CODE string
+@attribute EQUIPMENT_NAME numeric
+@attribute EQUIPMENT_TYPE_CODE numeric
+@attribute EQUIPMENT_TYPE_NAME numeric
+@attribute EQUIPMENT_TYPE_STYLE numeric
+@attribute EQUIPMENT_CRITICAL_FLAG numeric
+@attribute EQUIPMENT_RECONDITIONED_FLAG numeric
+@attribute EQUIPMENT_TRACEABLE_FLAG numeric
+@attribute EQUIPMENT_TRACING_GROUP_CODE string
+@attribute EQUIPMENT_TRACING_GROUP_NAME string
+@attribute EQUIPMENT_TAG_NUM string
+@attribute EQUIPMENT_JOB_REMARK string
+@attribute EQUIPMENT_STATUS numeric
+@attribute EQUIPMENT_STATUS_DATE string
+@attribute EQUIPMENT_ID_PATH=:140272:140277 numeric
+@attribute EQUIPMENT_ID_PATH=:140962:140967 numeric
+@attribute EQUIPMENT_ID_PATH=:140990:140995 numeric
+@attribute EQUIPMENT_ID_PATH=:141091:141099 numeric
+@attribute EQUIPMENT_ID_PATH=:141223:141228 numeric
+@attribute EQUIPMENT_ORDER_NUM_PATH=0140272:0140277 numeric
+@attribute EQUIPMENT_ORDER_NUM_PATH=0140962:0140967 numeric
+@attribute EQUIPMENT_ORDER_NUM_PATH=0140990:0140995 numeric
+@attribute EQUIPMENT_ORDER_NUM_PATH=0141091:0141099 numeric
+@attribute EQUIPMENT_ORDER_NUM_PATH=0141223:0141228 numeric
+@attribute 'EQUIPMENT_NAME_PATH=:KILN FEED CONVEYOR LC-1201:BELT CONVEYOR' numeric
+@attribute 'EQUIPMENT_NAME_PATH=:KILN DISCHARGE CONVEYOR LC-1301 A:BELT CONVEYOR' numeric
+@attribute 'EQUIPMENT_NAME_PATH=:KILN DISCHARGE CONVEYOR LC-1301 B:BELT CONVEYOR' numeric
+@attribute 'EQUIPMENT_NAME_PATH=:PRODUCT SCREEN FEED CONVEYOR LC-1305:BELT CONVEYOR' numeric
+@attribute 'EQUIPMENT_NAME_PATH=:JAW CRUSHER DISCHARGE CONVEYOR LC-1309:BELT CONVEYOR' numeric
+@attribute ACTION_CODE=CHECK_WEAR numeric
+@attribute ACTION_CODE=COLD_VULCANIZING numeric
+@attribute ACTION_CODE=HOT_VULCANIZING numeric
+@attribute ACTION_CODE=CHANGE numeric
+@attribute ACTION_CODE=INSPECT_MATERIAL_SPILLAGE numeric
+@attribute ACTION_CODE=INSPECT_SKEW numeric
+@attribute ACTION_CODE=INSPECT_ABNORMAL_WEAR numeric
+@attribute ACTION_CODE=INSPECT_ABNORMAL_SOUND numeric
+@attribute ACTION_CODE=ADJUST_SKEW numeric
+@attribute 'ACTION_NAME=Check Wear' numeric
+@attribute 'ACTION_NAME=Cold Vulcanizing' numeric
+@attribute 'ACTION_NAME=Hot Vulcanizing' numeric
+@attribute ACTION_NAME=Change numeric
+@attribute 'ACTION_NAME=Inspect Material Spillage' numeric
+@attribute 'ACTION_NAME=Inspect Skew' numeric
+@attribute 'ACTION_NAME=Inspect Abnormal Wear' numeric
+@attribute 'ACTION_NAME=Inspect Abnormal Sound' numeric
+@attribute 'ACTION_NAME=Adjust Skew' numeric
+@attribute ACTION_TYPE=NO_CHECK_LIST numeric
+@attribute COMPONENT_CODE string
+@attribute COMPONENT_NAME string
+@attribute MAIN_RESPONSIBLE_CODE numeric
+@attribute MAIN_RESPONSIBLE_NAME numeric
+@attribute CYCLE_TYPE_CODE=CONDITION_BASED numeric
+@attribute CYCLE_TYPE_NAME=Condition-Based numeric
+@attribute CYCLE_VALUE numeric
+@attribute CYCLE_UOM_CODE=YEAR numeric
+@attribute CYCLE_UOM_SHORT_NAME=Year numeric
+@attribute CYCLE_UOM_NAME=Year numeric
+@attribute CYCLE_UOM_CONVERT_HOUR numeric
+@attribute CYCLE_TOLERANCE numeric
+@attribute TASK_LAST_EXECUTION_DATE=07-FEB-21 numeric
+@attribute TASK_LAST_EXECUTION_DATE=28-DEC-12 numeric
+@attribute TASK_LAST_EXECUTION_DATE=13-JAN-19 numeric
+@attribute TASK_LAST_EXECUTION_DATE=11-JUN-19 numeric
+@attribute TASK_LAST_EXECUTION_DATE=20-MAR-13 numeric
+@attribute TASK_LAST_EXECUTION_DATE=09-MAR-19 numeric
+@attribute TASK_LAST_EXECUTION_DATE=21-DEC-23 numeric
+@attribute TASK_LAST_EXECUTION_DATE=24-OCT-24 numeric
+@attribute TASK_LAST_EXECUTION_DATE=19-NOV-19 numeric
+@attribute TASK_LAST_EXECUTION_DATE=18-JAN-12 numeric
+@attribute TASK_NEXT_PLAN_DATE=21-FEB-21 numeric
+@attribute TASK_NEXT_PLAN_DATE=10-JUN-22 numeric
+@attribute TASK_NEXT_PLAN_DATE=03-APR-13 numeric
+@attribute TASK_NEXT_PLAN_DATE=08-MAR-23 numeric
+@attribute TASK_NEXT_PLAN_DATE=18-NOV-22 numeric
+@attribute TASK_NEXT_PLAN_DATE=17-JAN-16 numeric
+@attribute SHUTDOWN_TYPE_CODE numeric
+@attribute SHUTDOWN_TYPE_SHORT_NAME numeric
+@attribute SHUTDOWN_TYPE_NAME numeric
+@attribute SHUTDOWN_TYPE_WEIGHT numeric
+@attribute SHUTDOWN_TYPE_GROUPER numeric
+@attribute TASK_DURATION_PLAN numeric
+@attribute TASK_DURATION_CALC numeric
+@attribute TASK_HAS_MICROPLAN_FLAG=YES numeric
+@attribute TASK_HAS_RESOURCE_FLAG=NO numeric
+@attribute TASK_HAS_SPAREPART_FLAG=YES numeric
+@attribute TASK_HAS_TOOL_FLAG numeric
+@attribute TASK_HAS_MEASUREMENT_FLAG numeric
+@attribute TASK_HAS_ATTACHMENT_FLAG numeric
+@attribute TASK_MICROPLAN_COMPLETED_FLAG=YES numeric
+@attribute TASK_STOPPAGE_FLAG=YES numeric
+@attribute 'TASK_REMARK=Attached inspection sheet' numeric
+@attribute 'TASK_REMARK=Attached belt specifications and vulcanizing sheet' numeric
+@attribute TASK_REMARK=2016/04/05 numeric
+@attribute 'TASK_REMARK=Attached belt specification and splicing procedure' numeric
+@attribute TASK_REMARK=2013/07/18 numeric
+@attribute TASK_CREATED_BY numeric
+@attribute TASK_CREATION_DATE numeric
+@attribute TASK_UPDATED_BY numeric
+@attribute TASK_UPDATE_DATE=29-OCT-24 numeric
+@attribute TASK_RESOURCE_TYPE string
+@attribute TASK_RISK_TYPE string
+@attribute TASK_FOLLOW_UP_GROUP string
+@attribute TASK_INHERIT_CYCLE numeric
+
+@data
+243514,0,ACTIVE,?,?,20002,?,20002,0,0,0,0,0,0,0,0,140277,140277,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243515,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,0,0,0,2459.2,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,4,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1664.5,0,?,?,?,0
+243516,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,1,1,1,8760,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,6,6,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243517,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,?,?,0,0,0,0,3,1,1,1,8760,10,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,40,0,10,10,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,1664.5,0,?,?,?,0
+243518,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243519,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243520,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243521,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243522,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,?,?,0,0,0,0,2,0,0,0,168,10,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243523,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140967,140967,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243525,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,0,0,0,2459.2,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,4,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1664.5,0,?,?,?,0
+243526,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,1,1,1,8760,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,10,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1664.5,0,?,?,?,0
+243527,1,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,?,?,0,0,0,0,4,1,1,1,8760,10,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,40,0,10,10,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,1664.5,0,?,?,?,0
+243528,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243529,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243530,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243531,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243532,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,?,?,0,0,0,0,2,0,0,0,168,10,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243533,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,140995,140995,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243534,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,0,0,0,2459.2,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,40,0,4,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1518,0,?,?,?,0
+243535,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,1,1,1,8760,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,40,0,10,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1811,1,?,?,?,0
+243536,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,?,?,0,0,0,0,3,1,1,1,8760,10,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,40,0,18,8.666667,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1664.5,0,?,?,?,0
+243537,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243538,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243539,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243540,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243541,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,?,?,0,0,0,0,2,0,0,0,168,10,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243542,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141099,141099,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243543,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,0,0,0,2459.2,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,4,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1664.5,0,?,?,?,0
+243544,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,?,?,0,0,1,1,2.230769,1,1,1,8760,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,10,8.666667,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1664.5,0,?,?,?,0
+243545,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,?,?,0,0,0,0,4,1,1,1,8760,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,40,0,18,8.666667,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1664.5,0,?,?,?,0
+243546,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243547,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
+243548,0,ACTIVE,?,?,20003,?,20003,1,0,0,0,0,1,1,1,141228,141228,?,?,?,?,?,0,0,0,0,0,0,0,?,?,?,?,0,?,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,?,?,0,0,0,0,2,0,0,0,168,10,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,40,0,0.5,8.666667,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1664.5,0,?,?,?,0
