@@ -352,16 +352,6 @@ curl http://localhost:8080/api/rates/status/as400
 
 ## 🚀 Deployment
 
-### Production Checklist
-- [ ] Remove hardcoded EdgeDriver path
-- [ ] Configure Oracle credentials
-- [ ] Configure AS400 connection
-- [ ] Set up SMTP for emails
-- [ ] Update recipient email addresses
-- [ ] Configure timezone correctly
-- [ ] Set up application monitoring
-- [ ] Enable production logging
-
 ### Docker Deployment (Optional)
 ```dockerfile
 FROM openjdk:17-jdk-slim
